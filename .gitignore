@@ -7,6 +7,8 @@ __pycache__/
 # Ignore Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
-# Ignore logs & cache
-*.log
-*.cache
+# Ignore large files
+models/*.pth
+data/latents/
+data/interpretable/
+results/
